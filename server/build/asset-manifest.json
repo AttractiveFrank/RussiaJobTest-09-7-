@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14a52975.css",
+    "main.js": "/static/js/main.9a036655.js",
+    "static/js/453.c3be127f.chunk.js": "/static/js/453.c3be127f.chunk.js",
+    "static/media/iphone.png": "/static/media/iphone.7618734117dbec783d64.png",
+    "static/media/iphone2.png": "/static/media/iphone2.c1fe38279bb3a2f5e077.png",
+    "static/media/bg1.png": "/static/media/bg1.441c4c3b67f5e8485f55.png",
+    "static/media/logo.svg": "/static/media/logo.bdcd70edf0e35b1b3d039f1f64c67504.svg",
+    "static/media/mouse.svg": "/static/media/mouse.48eea19031d8d8bd7074913555efea9c.svg",
+    "index.html": "/index.html",
+    "static/media/check-round-bg-white.svg": "/static/media/check-round-bg-white.d7e234e178159af05e549b07c7217801.svg",
+    "static/media/phone-icon.svg": "/static/media/phone-icon.d069053833ab7afbffc2fd1d0888d339.svg",
+    "static/media/check.svg": "/static/media/check.0f24f005f8cabd1ad63e1abc85f29522.svg",
+    "static/media/mail-icon.svg": "/static/media/mail-icon.0a0a3b01ed2cab4dbf5028dbea56f330.svg",
+    "main.14a52975.css.map": "/static/css/main.14a52975.css.map",
+    "main.9a036655.js.map": "/static/js/main.9a036655.js.map",
+    "453.c3be127f.chunk.js.map": "/static/js/453.c3be127f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14a52975.css",
+    "static/js/main.9a036655.js"
+  ]
+}

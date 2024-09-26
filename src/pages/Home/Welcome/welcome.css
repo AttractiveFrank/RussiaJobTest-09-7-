@@ -1,0 +1,102 @@
+.welcomeContainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 190px;
+  overflow: hidden;
+}
+
+.welcomeWrapper {
+  width: 100%;
+  display: flex;
+  padding-top: 95px;
+}
+
+.welcomeLeft {
+  width: 250.48px;
+  padding-left: 136px;
+}
+
+.welcomeRight {
+  width: 566.66px;
+  margin-left: 209px;
+}
+
+.welcomeImgWrap {
+  position: relative;
+  margin-top: 12px;
+}
+
+.logoImg {
+  width: 250.48px;
+  height: 250.48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.playBtnWrapper {
+  position: absolute;
+  right: 33px;
+  bottom: -8px;
+  width: 54.07px;
+  height: 54.07px;
+  background-color: rgba(255, 255, 255, 0.59);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.circleImg {
+  width: 20.09px;
+  height: 21.15px;
+}
+
+.welcomeLinkWrap {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.welcomeTitle {
+  color: var(--pinkColor);
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 79.2px;
+  letter-spacing: -0.03em;
+}
+
+.welcomeTitle span {
+  color: var(--primary-txtColor);
+}
+
+.welcomeText {
+  margin-top: 22px;
+  font-size: 20px;
+  color: var(--primary-txtColor);
+  letter-spacing: -0.03em;
+  line-height: 28px;
+}
+
+.welcomeBtn {
+  background: var(--pinkColor);
+  padding: 16px 30px 16px 30px;
+  margin-top: 70px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #f7f7f7;
+  font-family: "Inter";
+  border: none;
+  border-radius: 550.16px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.welcomeBtn:hover {
+  background: black;
+  transition: 0.5s;
+}

@@ -1,0 +1,63 @@
+.video-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.MuiButtonBase-root {
+  text-transform: none !important;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.imgCardLink {
+  font-size: 16px;
+  font-weight: 400;
+  color: #f7f7f7;
+  text-decoration: underline;
+}
+
+.imgCardLinkWrap:hover {
+  .imgCardLink {
+    color: var(--videoLinkColor);
+    cursor: pointer;
+  }
+}
+
+.videoCardLink {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color: var(--pinkColor) !important;
+  text-decoration: underline !important;
+  letter-spacing: -0.03em !important;
+}
+
+.videoCardLink:hover {
+  color: black !important;
+}
+
+.reviewCardTag {
+  font-weight: "500";
+  font-size: 16px;
+  color: var(--pinkColor);
+  letter-spacing: -0.03em;
+}
+
+.reviewCardTag:hover {
+  color: black;
+}
+
+.hidden {
+  display: none;
+}

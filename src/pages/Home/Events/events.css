@@ -1,0 +1,43 @@
+.eventsWrapper {
+  width: 100%;
+  max-width: 1160px;
+  height: 134px;
+  background: var(--emailBgColor);
+  margin: auto;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.eventsTitleTxt {
+  width: 30%;
+  padding-left: 35px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: -0.02em;
+  color: var(--primary-txtColor);
+}
+
+.eventsContentTxt {
+  width: 25%;
+  margin-left: 75px;
+  font-size: 16px;
+  color: var(--primary-txtColor);
+  line-height: 22.4px;
+}
+
+.eventsAddressWrap {
+  width: 25%;
+  margin-left: 110px;
+}
+
+.eventsFooterWrap {
+  width: 100%;
+  max-width: 1160px;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 200px;
+  display: flex;
+}

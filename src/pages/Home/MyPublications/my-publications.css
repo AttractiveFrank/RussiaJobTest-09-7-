@@ -1,0 +1,113 @@
+.sectionHeader {
+  max-width: 1160px;
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.sectionLeft {
+  margin-top: 10px;
+}
+
+.sectionRight {
+  width: 675px;
+  margin-left: 348px;
+  color: var(--primary-txtColor);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+}
+
+.sectionRight span {
+  color: var(--pinkColor);
+}
+
+.myPublicationCard {
+  width: 100%;
+  max-width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 60px;
+  padding-bottom: 250px;
+}
+
+.addBtn {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pubCardSquare {
+  width: 100%;
+  max-width: 275px;
+  height: 310px;
+  display: flex;
+  justify-content: center;
+}
+
+.pubCard {
+  width: 100%;
+  max-width: 275px;
+  height: 310px;
+  background-color: var(--cardColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.pubCard1 {
+  width: 100%;
+  max-width: 275px;
+  height: 310px;
+  background-color: #8424de;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  rotate: 5.13deg;
+}
+
+.mdText {
+  width: 226px;
+  padding-top: 9px;
+  padding-left: 28px;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: var(--pinkColor);
+  line-height: 21.6px;
+  letter-spacing: -0.03em;
+}
+
+.pubImg {
+  position: absolute;
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin-top: 55px;
+  transform: translateX(175px);
+  filter: var(--changeImageColor);
+}
+
+.mmdText {
+  padding-left: 29px;
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--primary-bgColor);
+}
+
+.xmText {
+  padding-left: 29px;
+  font-size: 14px;
+  color: var(--grayText);
+}
+
+.addBtn:hover {
+  display: flex;
+}

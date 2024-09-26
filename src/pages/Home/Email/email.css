@@ -1,0 +1,164 @@
+.Emailsection {
+  position: relative;
+  width: 100%;
+  max-width: 1160px;
+  background: var(--emailBgColor);
+  margin: auto;
+  margin-top: 100px;
+}
+
+.emailTitle {
+  padding-top: 25px;
+  padding-left: 34px;
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--primary-txtColor);
+  letter-spacing: -0.03em;
+}
+
+.emailTxt {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--primary-txtColor);
+  padding-left: 34px;
+  margin-top: 15px;
+  letter-spacing: -0.03em;
+}
+
+.emailFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputWrapper {
+  padding-left: 34px;
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+
+.inputWrapper input {
+  width: 250px;
+  height: 45px;
+  background: var(--inputBgColor);
+  padding-left: 19px;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--grayText);
+  border: none;
+  border-radius: 5px;
+}
+
+.emailSend {
+  background: var(--primary-txtColor);
+  padding: 16px 35px 16px 35px;
+  margin-left: 25px;
+  font-weight: 500;
+  font-size: 14.71px;
+  color: var(--primary-bgColor);
+  border: none;
+  border-radius: 459.57px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.emailSend:hover {
+  background: #8424de;
+  transition: 1s;
+}
+
+.emailIconWrapper {
+  display: flex;
+  margin-top: 95px;
+  padding-right: 15px;
+  gap: 3px;
+}
+
+.emailCircle {
+  position: relative;
+  width: 48px;
+  height: 50px;
+  background: #e0e0e0;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.emailCircle img:hover {
+  cursor: pointer;
+  filter: invert(24%) sepia(97%) saturate(7500%) hue-rotate(280deg) brightness(100%) contrast(100%);
+}
+
+.groupImg {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.inp {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 45px;
+  max-width: 267px;
+  background-color: var(--inputBgColor);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.inp .label {
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  color: var(--grayText) !important;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  transform-origin: 0 0;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+
+.inp .focus-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 267px;
+  height: 45px;
+  transform: scaleX(0);
+  transform-origin: left;
+  z-index: -1;
+}
+
+.inp input {
+  width: 267px;
+  height: 45px;
+  background: var(--inputBgColor);
+  padding-left: 13px;
+  color: var(--grayText) !important;
+  font-size: 14px;
+  border: 0;
+  transition: all 0.15s ease;
+  letter-spacing: -0.03em;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.inp input:not(:placeholder-shown)+.label {
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.inp input:focus {
+  outline: none;
+}
+
+.inp input:focus+.label {
+  transform: translate3d(0, -14px, 0) scale(0.75);
+}
+
+.inp input:focus+.label+.focus-bg {
+  transform: scaleX(1);
+  transition: all 0.1s ease;
+}

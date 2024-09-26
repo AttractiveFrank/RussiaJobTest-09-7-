@@ -1,0 +1,267 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  width: 100%;
+  max-width: 717px;
+  max-height: 80vh;
+  background-color: var(--emailBgColor);
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.modalTitle {
+  font-weight: 500;
+  font-size: 55px;
+  color: var(--primary-txtColor);
+  text-align: center;
+}
+
+.modalText {
+  padding-left: 75px;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--primary-txtColor);
+}
+
+.modalBtnWrapper {
+  width: 460px;
+  margin-top: 50px;
+  padding-left: 75px;
+}
+
+.modalSmallTitle {
+  font-weight: 600;
+  font-size: 25px;
+  color: var(--primary-txtColor);
+}
+
+.modalSelectBtns {
+  background: var(--customerCardColor);
+  padding: 10px;
+  margin-bottom: 14px;
+  border-radius: 30px;
+  color: var(--headerHBtnColor);
+  font-size: 14px;
+  border: none;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.modalSelectBtns:hover {
+  background-color: var(--headerTxtColor);
+  color: #8424de;
+  transition: 1s;
+}
+
+.modalTextWrapper {
+  padding-left: 75px;
+  margin-top: 50px;
+}
+
+.modalTextWrapper p {
+  font-weight: 600;
+  font-size: 25px;
+  color: var(--primary-txtColor);
+}
+
+.modalTextWrapper textarea {
+  width: 492px;
+  height: 136px;
+  background: var(--inputBgColor);
+  padding: 20px 0 0 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.modalInputWrapper {
+  padding-left: 75px;
+  margin-top: 75px;
+}
+
+.modalInputWrapper p {
+  font-weight: 600;
+  font-size: 25px;
+  color: var(--primary-txtColor);
+}
+
+.modalInputConta {
+  width: 516px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkTxt {
+  font-size: 14px;
+  color: #808080;
+}
+
+.checkTxt span {
+  color: var(--cardBgColor);
+}
+
+.inpm {
+  position: relative;
+  width: 100%;
+  height: 155px;
+  max-width: 492px;
+  background-color: var(--inputBgColor);
+  margin: auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.inpm .labelm {
+  position: absolute;
+  top: -140px;
+  left: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #7E7E7E !important;
+  transform-origin: 0 0;
+  transform: translate3d(0, 0, 0);
+  letter-spacing: -0.03em;
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+
+.inpm .focus-bgm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 492px;
+  height: 155px;
+  transform: scaleX(0);
+  transform-origin: left;
+  z-index: -1;
+}
+
+.inpm textarea {
+  width: 492px;
+  height: 155px;
+  background: var(--inputBgColor);
+  padding-left: 13px;
+  border: 0;
+  font-size: 16px;
+  color: #7E7E7E !important;
+  letter-spacing: -0.03em;
+  transition: all 0.15s ease;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.inpm textarea:not(:placeholder-shown)+.labelm {
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.inpm textarea:focus {
+  outline: none;
+}
+
+.inpm textarea:focus+.labelm {
+  transform: translate3d(0, -14px, 0) scale(0.75);
+}
+
+.inpm textarea:focus+.labelm+.focus-bgm {
+  transform: scaleX(1);
+  transition: all 0.1s ease;
+}
+
+
+.inpD {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  max-width: 240px;
+  background-color: var(--inputBgColor);
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+
+}
+
+.inpD .labelD {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: #808080 !important;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  transform-origin: 0 0;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+
+.inpD .focus-bgD {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 45px;
+  transform: scaleX(0);
+  transform-origin: left;
+  z-index: -1;
+}
+
+.inpD input {
+  width: 240px;
+  height: 45px;
+  background: var(--inputBgColor);
+  padding-left: 13px;
+  font-size: 14px;
+  border: 0;
+  color: #808080 !important;
+  letter-spacing: -0.03em;
+  transition: all 0.15s ease;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.inpD input:not(:placeholder-shown)+.labelD {
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.inpD input:focus {
+  outline: none;
+}
+
+.inpD input:focus+.labelD {
+  transform: translate3d(0, -14px, 0) scale(0.75);
+}
+
+.inpD input:focus+.labelD+.focus-bgD {
+  transform: scaleX(1);
+  transition: all 0.1s ease;
+}
+
+.welcomeMotalBtn {
+  background: var(--pinkColor);
+  padding: 16px 30px 16px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #f7f7f7;
+  border: none;
+  border-radius: 550.16px;
+  cursor: pointer;
+  margin-top: 70px;
+  transition: 0.5s;
+}
+
+.welcomeMotalBtn:hover {
+  background: black;
+  transition: 0.5s;
+}

@@ -1,0 +1,123 @@
+.transitionWrapper {
+  position: absolute;
+  width: 266px;
+  height: 266px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.transitionTop {
+  background: #ececec;
+  top: 80px;
+  right: -100px;
+  rotate: -30deg;
+}
+
+.transitionTop1 {
+  background: #e0e0e0;
+  top: 280px;
+  rotate: -50deg;
+  right: -120px;
+}
+
+.transitionTop1:hover {
+  right: 80px;
+  rotate: -27.21deg;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.transitionTop:hover {
+  right: 100px;
+  rotate: -9.15deg;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.colTxt {
+  padding-top: 43.68px;
+  padding-left: 25px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  color: #8424de;
+  letter-spacing: -0.03em;
+}
+
+.topTxt {
+  font-size: 14px;
+  color: #808080;
+  line-height: 19.6px;
+  padding-left: 25px;
+  letter-spacing: -0.03em;
+}
+
+.transitionBtnWrap {
+  display: flex;
+  align-items: center;
+}
+
+.transitionBtn {
+  width: 168px;
+  height: 47.8px;
+  background-color: var(--primary-txtColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 25px;
+  font-family: "Inter";
+  color: var(--primary-bgColor);
+  border: none;
+  border-radius: 459px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.topCircleBorder {
+  width: 47.8px;
+  height: 47.8px;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-left: -5px;
+  border-left: none !important;
+  border: 1px solid var(--primary-txtColor);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.topCircle {
+  width: 45px;
+  height: 45px;
+  background-color: var(--primary-txtColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.topTelegram {
+  color: var(--primary-bgColor);
+}
+
+.transitionBtnWrap:hover {
+  .transitionBtn {
+    background-color: var(--pinkColor);
+    color: white;
+  }
+
+  .topCircleBorder {
+    border: 1px solid var(--pinkColor);
+  }
+
+  .topTelegram {
+    color: white;
+  }
+
+  .topCircle {
+    background-color: var(--pinkColor);
+  }
+}
